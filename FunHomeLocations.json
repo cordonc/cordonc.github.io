@@ -1,0 +1,49 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.582044,41.07272 ]
+    },
+    "properties": {
+    "name":"Lived",
+    "Note":"The house where he and my mother raised our family."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.56941,41.07089 ]
+    },
+    "properties": {
+    "name":"Buried",
+    "Note":"Hays-Fearon Cemetary"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.585024,41.078837 ]
+    },
+    "properties": {
+    "name":"Born",
+    "Note":"The farm where he was born."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.553363,41.08293 ]
+    },
+    "properties": {
+    "name":"Died",
+    "Note":"The spot on Route 150, where he died, near an old farmhouse he was restoring."
+    }
+  }
+]
+}
