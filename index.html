@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>“Fun Home" by Alison Bechdel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+    <link rel="stylesheet" href="leaflet.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="row">
+
+        <h1>"Fun Home" By Alison Bechdel</h1>
+
+       <dive class="col-md-5" id="poem">
+         </dive>
+          <div class="col-md-8" id="places-sidebar">
+
+          
+      <h5>Fun Home: A Family Tragicomic is a 2006 graphic memoir by the American cartoonist <a href="https://en.wikipedia.org/wiki/Alison_Bechdel">Alison Bechdel</a>, author of the comic strip <a href="https://www.amazon.com/Essential-Dykes-Watch-Out/dp/0618968806">Dykes to Watch Out For</a>. It chronicles the author's childhood and youth in rural Pennsylvania, United States, focusing on her complex relationship with her father. The book addresses themes of sexual orientation, gender roles, suicide, emotional abuse, dysfunctional family life, and the role of literature in understanding oneself and one's family. 
+      </h5>
+
+      <h6>This map outlines locations where Alison Bechdels father was born, where he grew up, where he died, and where he was buried. Below is an excerpt from the local newspaper covering his death at the time.</h6>
+
+      <h7> 
+        <p>BEECH CREEK – Bruce Bechdel, 44, of Maple Avenue, Beech Creek, well-known funeral director and high school teacher, died of multiple injuries suffered when he was struck by a tractor-trailer along Rouge 150, about two miles north of Beech Creek at 11:10 a.am. Wednesday.</p>
+
+        <p>Bechdel was born in Beech Creek on April 8, 1936 and was the son of Dorothy Bechdel. Bechdel, who survives and lives in Beech Creek, and the late Claude H. Bechdel.</p>
+        
+        <p>He operated the Bruce A. Bechdel Funeral Home in Beech Creek and was also an English teacher at Bald Eagle-Nittany.</p>
+        
+        <p>Bechdel was president of the Clinton County Historical Soviety and was instrumental in the restoriation of the Heisey museum after the 1972 flood and in 1978 he adn his wife, the former Helen Fontana, received the annual Clinton County Historical Society preservation award.</p>
+
+        </h7>
+
+      <div id="could-be-map" class="map"></div>
+      <div id="content">
+
+        <nav id="nav-tabs" class="nav nav-pills mt-3" role="tablist">
+          <a class="nav-link active" href="#introduction" data-toggle="tab" role="tab">Original Comic Map</a>
+          <a class="nav-link" href="#Farm-Born" data-toggle="tab" role="tab">Born</a>
+          <a class="nav-link" href="#House-Raised" data-toggle="tab" role="tab">Lived</a>
+          <a class="nav-link" href="#Route-one-fifty" data-toggle="tab" role="tab">Died</a>
+          <a class="nav-link" href="#Dads-Grave" data-toggle="tab" role="tab">Buried</a>
+          
+          
+         
+        </nav>
+        </div>
+        
+        <div class="tab-content p-3">
+          <section class="tab-pane active" id="introduction" role="tabpanel"></section>
+          <section class="tab-pane" id="Farm-Born" role="tabpanel"> </section>
+          <section class="tab-pane" id="House-Raised" role="tabpanel"> </section>
+          <section class="tab-pane" id="Route-one-fifty" role="tabpanel"></section>
+          <section class="tab-pane" id="Dads-Grave" role="tabpanel"></section>
+          
+          
+        </div>
+        
+        <!-- /* <img src="IMG_4615.jpg" alt="Image from book" style="width:500px;height:600px;" > */ -->
+
+      </div>
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.0/markdown-it.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it-footnote/3.0.1/markdown-it-footnote.js"></script>
+    <script src="could-be.js"></script>
+    
+
+
+  </body>
+</html>
+
